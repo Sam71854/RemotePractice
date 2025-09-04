@@ -1,0 +1,11 @@
+iin this assignemtn i started off by creating a remote repositiory and then pulling it into my own local machine 
+git clone <repository-url>
+touch notes.txt
+vim notes.txt
+git checkout -b feature-branch
+git push origin feature-branch
+git checkout master
+git pull origin main
+git merge feature-branch
+git push origin main
+touch remote_solution.txt
